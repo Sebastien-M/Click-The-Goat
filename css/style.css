@@ -42,6 +42,18 @@ img {
 
 .img {
     display: flex;
-    justify-content: center;
+    align-self: center;
     margin-top: 5%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
 }
