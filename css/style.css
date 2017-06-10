@@ -1,0 +1,47 @@
+html,
+body {
+    font-family: 'Patrick Hand SC', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    background-color: gray;
+    color: white;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.eh {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
